@@ -1,0 +1,22 @@
+{
+  "$schema": "/etc/xdg/swaync/configSchema.json",
+  "positionX": "right",
+  "positionY": "top",
+  "layer": "overlay",
+  "control-center-layer": "overlay",
+  "layer-shell": true,
+  "cssPriority": "user",
+  "widgets": ["title", "mpris", "dnd"],
+  "widget-config": {
+    "title": {
+      "text": "Уведомления",
+      "clear-all-button": true
+    },
+    "dnd": {
+      "text": "Не беспокоить"
+    },
+    "mpris": {
+      "image-size": 64
+    }
+  }
+}

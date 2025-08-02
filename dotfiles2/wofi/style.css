@@ -1,0 +1,43 @@
+window {
+  border-radius: 16px; 
+  overflow: hidden;    
+  background-color: rgba(20, 20, 20, 0.4);
+  font-family: "SF Pro Display", Helvetica, Arial;
+  font-size: 15px;
+  animation: slideIn 0.2s ease-out;
+}
+
+#input {
+  margin: 20px;
+  padding: 12px;
+  border: true;
+  border-radius: 12px;
+  color: #000000;
+  background-color: rgba(70, 70, 70, 0.8);
+  font-size: 16px;
+}
+
+#scroll {
+  margin: 0px;
+  border: none;
+}
+
+#text {
+  margin: 5px;
+  color: #ffffff;
+}
+
+#entry {
+  padding: 8px 12px;
+  border-radius: 12px;
+  background-color: transparent;
+  transition: background-color 0.2s ease;
+}
+
+#entry:selected {
+  background-color: rgba(200, 200, 200, 0.7);
+}
+
+#entry > box {
+  margin-left: 15px;
+}

@@ -1,0 +1,12 @@
+show=drun
+prompt=Поиск
+width=600
+height=400
+insensitive=true
+allow_markup=true
+no_actions=true
+halign=center
+orientation=vertical
+content_halign=center
+dynamic_lines=true
+
